@@ -33,7 +33,7 @@ Then include and use:
     var query = require('mysql-query-promise'),
         qs = 'SELECT * FROM foo WHERE bar=?';
         
-    query(qs, ['baz'], 'master', cacheTime)
+    query(qs, ['baz'], 'master')
         .then(function(rows){
             /* Do what you need with query results here */
         }, function(err){
