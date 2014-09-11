@@ -4,7 +4,7 @@
   "description": "MySQL node.js module adapter with config module integration. Works with promises!",
   "main": "./lib/mysql-query.js",
   "dependencies": {
-    "mysql-query": "*",
+    "mysql-query": "git://github.com/ria-com/node-mysql-query.git#master",
     "q": "*"
   },
   "devDependencies": {},
