@@ -2,14 +2,16 @@
 [mysql-query][1] wrapper for promises
 ## Installing ##
 Add to you package.json file:
-
+```javascript
     "dependencies": {
        "mysql-query-promise": "git://github.com/ria-com/node-mysql-query-promise.git"
     }
+```
+
 Then run `npm install`...
 ## Usage example ##
 Add to your `default.js` config file:
-
+```javascript
     database: {
         'master': {
             host: 'localhost',
@@ -28,8 +30,10 @@ Add to your `default.js` config file:
             connectionLimit: 10
         }
     }
+```
+    
 Then include and use:
-
+```javascript
     var query = require('mysql-query-promise'),
         qs = 'SELECT * FROM foo WHERE bar=?';
         
@@ -39,5 +43,6 @@ Then include and use:
         }, function(err){
             /* Errors handler */
         });
-    
+```
+
   [1]: https://github.com/ria-com/node-mysql-query
