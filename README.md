@@ -4,7 +4,7 @@
 Add to you package.json file:
 ```javascript
     "dependencies": {
-       "mysql-query-promise": "git://github.com/ria-com/node-mysql-query-promise.git"
+       "mysql-query-promise": "*"
     }
 ```
 

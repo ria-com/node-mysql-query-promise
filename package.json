@@ -1,10 +1,10 @@
 {
   "name": "mysql-query-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MySQL node.js module adapter with config module integration. Works with promises!",
   "main": "./lib/mysql-query.js",
   "dependencies": {
-    "mysql-query": "git://github.com/ria-com/node-mysql-query.git#master",
+    "mysql-query-js": "*",
     "q": "*"
   },
   "devDependencies": {},
