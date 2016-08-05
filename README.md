@@ -1,5 +1,5 @@
 ## mysql-query-promise ##
-[mysql-query][1] wrapper for promises
+[mysql-query-js][1] wrapper for promises
 ## Installing ##
 Add to you package.json file:
 ```javascript
@@ -45,4 +45,4 @@ Then include and use:
         });
 ```
 
-  [1]: https://github.com/ria-com/node-mysql-query
+  [1]: https://github.com/ria-com/node-mysql-query-js
